@@ -1,2 +1,1 @@
-# niskadevla.github.io-todo
-todolist
+# todo_list

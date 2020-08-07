@@ -1,0 +1,123 @@
+.active {
+  background-color: #007bff;
+}
+
+.done {
+  background-color: #dedede;
+  text-decoration: line-through;
+}
+
+.header-todolist {
+  display: flex;
+  justify-content: center;
+}
+
+.wrap-todolist {
+  /* border: 1px solid #ccc; */
+}
+
+.title {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.btn {
+  text-transform: uppercase;
+}
+
+.btn-success,
+.btn-warning {
+  margin: 1rem;
+  font-weight: bold;
+}
+
+/* .nav {
+  background-color: #eee;
+} */
+
+.nav-item {
+  background-color: #eee;
+  padding: 0;
+}
+
+.nav-item,
+.todo-item {
+  border: 1px solid #ccc;
+  border-right: none;
+}
+
+.nav-item:first-child,
+.todo-item:first-child {
+  flex: 0 0 8.333333%;
+  max-width: 8.333333%;
+}
+
+.nav-item:last-child,
+.todo-item:last-child {
+  flex: 0 0 8.333333%;
+  max-width: 8.333333%;
+  border-right: 1px solid #ccc;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  border-top: none;
+  padding: .5rem;
+}
+
+.nav-link,
+.nav-link {
+  color: #000;
+}
+
+.nav-link[href]:hover,
+.nav-link[href]:active {
+  background-color: #ddd;
+}
+
+.todolist {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.todolist-item {
+  position: relative;
+}
+
+.todo {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-title {
+  width: 100%;
+  text-align: center;
+}
+
+.modal-body {
+  display: flex;
+  flex-flow: column nowrap;
+  /* justify-content: space-between; */
+}
+
+.modal-group {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.modal-group p {
+  margin-bottom: 0;
+}
+
+.modal-group  * + * {
+  margin-left: 1rem;
+}
